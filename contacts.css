@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap');
+
+#contacts{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+    background-image: url("milk.jpeg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    
+    }
+
+
+.contacts-page a {
+    font-family: 'Poppins', sans-serif;
+    display: inline-block;
+    font-size: 1em;
+    background: rgb(74, 61, 59);
+    padding: 10px 30px;
+    text-decoration: none;
+    color:darksalmon;
+    margin-top: 10px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    transition: 0.2s;
+  }
+    /* the text link info on homepage */
+    
+  .contacts-page a:hover {
+    letter-spacing: 6px; 
+    transition: .5s;
+  } 
+
+   .social-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-evenly;
+    
+  }
+
+  .brown-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    color: darksalmon;
+    font-size: 1.2em;   
+    margin-left: 20%;
+    margin-top: 30px;
+    margin-right: 20%;
+    font-weight: 700;
+    max-width: 900px;
+    background: rgb(74, 61, 59);
+    padding: 10px;
+    
+  }

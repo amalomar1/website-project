@@ -1,0 +1,101 @@
+
+#howto h1{
+  display: inline-block;
+  font-family: fantasy;
+  font-size: 1.5em;
+  background: rgb(74, 61, 59);
+  padding: 10px 30px;
+  text-decoration: none;
+  color:darksalmon;
+  margin-top: 10px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  transition: 0.2s;
+  mix-blend-mode: darken;
+}
+
+#howto nav{
+  display: inline-block;
+  font-size: 1em;
+  padding: 10px 30px;
+  text-decoration: none;
+  color:darksalmon;
+  text-transform: uppercase;
+  word-spacing: 4px;
+  transition: 0.2s;
+}
+
+#howto p {
+  font-family: fantasy;
+  color: black;
+  font-size: 1.1em;   
+  margin-left: 850px;
+  font-weight: 700;
+  max-width: 600px;
+}
+
+#howto img {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+#howto a:hover {
+  letter-spacing: 3px;  
+}
+
+#contacts h1{
+  display: inline-block;
+  font-family: fantasy;
+  font-size: 1.5em;
+  background: rgb(74, 61, 59);
+  padding: 10px 30px;
+  text-decoration: none;
+  color:darksalmon;
+  margin-top: 10px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  transition: 0.2s;
+  mix-blend-mode: darken;
+}
+
+#contacts nav{
+  display: inline-block;
+  font-size: 1em;
+  padding: 10px 30px;
+  text-decoration: none;
+  color:darksalmon;
+  margin-top: 10px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  transition: 0.2s;
+}
+
+#contacts img {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* #contacts li {
+  list-style: none;
+  display: flex;
+  margin-right: 100px;
+  display: inline-block;
+  
+}
+
+#contacts li a {
+  display: inline-block;   
+  filter: invert(1);
+  margin-block-start: 50px;
+  transform: scale(5);
+  transition: 0.5s;
+
+}
+
+#contacts li a:hover {
+  transform: scale(0.5) translateY(-15px);
+} */

@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap');
+
+#page2{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-image: url("herd.jpeg");
+  background-repeat: no-repeat;
+}
+
+/* img {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.5;
+    
+} */
+
+.about-page a {
+  font-family: 'Poppins', sans-serif;
+  display: inline-block;
+  font-size: 1em;
+  background: rgb(74, 61, 59);
+  padding: 10px 30px;
+  text-decoration: none;
+  color:darksalmon;
+  margin-top: 10px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  transition: 0.2s;
+}
+  /* the text link info on homepage */
+  
+.about-page a:hover {
+  letter-spacing: 6px; 
+  transition: .5s;
+}  
+
+/* .content{
+    display: inline-block;
+    font-family: fantasy;
+    font-size: 1.5em;
+    background: rgb(74, 61, 59);
+    padding: 10px 30px;
+    text-decoration: none;
+    color:darksalmon;
+    margin-top: 10px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    transition: 0.2s;
+    mix-blend-mode: darken;
+} */
+  
+.content {
+    /* display: flex;
+    justify-content: center;
+    font-family: fantasy;
+    color: black;
+    font-size: 20px;   
+    margin: 10%; 
+    font-weight: 700;
+    max-width: 600px;   */
+
+    font-family: 'Poppins', sans-serif;
+  color: darksalmon;
+  font-size: 1.2em;   
+  margin-left: 350px;
+  margin-top: 30px;
+  font-weight: 700;
+  max-width: 600px;
+  background: rgb(74, 61, 59);
+  padding: 0px 30px;
+}
+  

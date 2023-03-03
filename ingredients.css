@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap');
+
+#ingredients{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+    background-image: url("ingredients.png");
+    background-repeat: no-repeat;
+    background-size: 125%;
+    
+    }
+  
+.ingredients-page a {
+  font-family: 'Poppins', sans-serif;
+    display: inline-block;
+    font-size: 1em;
+    background: rgb(74, 61, 59);
+    padding: 10px 30px;
+    text-decoration: none;
+    color:darksalmon;
+    margin-top: 10px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    transition: 0.2s;
+  }
+    /* the text link info on homepage */
+    
+  .ingredients-page a:hover {
+    letter-spacing: 6px; 
+    transition: .5s;
+  } 
+
+  .ingredients-text {
+    /* font-family: fantasy;
+  
+    background: darksalmon;
+    color: black;
+    font-size: 1.3em;   
+    margin-left: 350px;
+    font-weight: 800;
+    max-width: 600px;
+    border-radius: 2%;
+
+   
+    display: inline-block;
+    
+    background: rgb(74, 61, 59);
+    padding: 10px 30px;
+    text-decoration: none;
+    color:darksalmon;
+    margin-top: 10px;
+    text-transform: uppercase; */
+    font-family: 'Poppins', sans-serif;
+    color: darksalmon;
+    font-size: 1.2em;   
+    margin-left: 980px;
+    margin-top: 30px;
+    font-weight: 700;
+    max-width: 400px;
+    background: rgb(74, 61, 59);
+    padding: 10px;
+  }

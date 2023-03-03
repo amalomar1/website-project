@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+body{
+  position: absolute;
+  right: 0;
+  width: 100%;
+  min-height: 100vh;
+  padding: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 20;
+  background-image: url("bg.png");
+  background-repeat: no-repeat;
+}
+
+/* img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0.5;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgb(74, 61, 59);
+  mix-blend-mode: overlay; 
+} */
+
+/* images info */
+
+/* part of the images */
+
+
+.index-text {
+  position: relative;
+  z-index: 10;
+}
+/* where the homepage text is */
+
+.index-text h1 {
+  color:blanchedalmond;
+  font-size: 5em;
+  font-weight: 800;
+  line-height: 1em;
+  text-transform: uppercase;
+}
+/* the first header on homepage info */
+  
+.index-text h2 {
+  color:blanchedalmond;
+  font-size: 2em;
+  font-weight: 700;
+  line-height: 1em;
+  text-transform: uppercase;
+}
+/* the second header on homepage info  */
+
+.index-text p {
+  font-family: fantasy;
+  color: white;
+  font-size: 1.2em;   
+  margin: 20px 0;
+  font-weight: 400;
+  max-width: 700px;
+}
+/* the paragraph info */
+
+.index-text a {
+  display: inline-block;
+  font-size: 1em;
+  background: rgb(74, 61, 59);
+  padding: 10px 30px;
+  text-decoration: none;
+  color:darksalmon;
+  margin-top: 10px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  transition: 0.2s;
+}
+/* the text link info on homepage */
+
+.index-text a:hover {
+  letter-spacing: 6px; 
+  background: lightgrey;
+  transition: .5s;
+}
+/* the text link hovering on homepage */
+
+/* ------------EVERYTHING ABOVE IS HOMEPAGE ON WEBSITE */
+
